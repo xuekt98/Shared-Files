@@ -6,7 +6,7 @@
 ## 1. Inpainting/Uncropping
 数据集：Places2  
 对比模型：Palette（2021），DeepFillv2（2019），HiFill（2020），LDM（2022）（<font color=green>如果可以，这部分实验结果可以直接用Palette文中的结果</font>）  
-| Model | FID $\downarrow$ | IS $\uparrow$ | diversity | LPIPS |
+| Model | FID $\downarrow$ | IS $\uparrow$ | diversity $\uparrow$ | LPIPS $\downarrow$ |
 | - | - | - | - | - |
 | DeepFillv2（2019） | | | | |
 | HiFill（2020） | | | | |
@@ -19,7 +19,7 @@
 数据集：Visual GENOME  
 对比模型：cGAN（Pix2Pix）（2017），PixColor（2017），Coltran（2021），Palette（2021），LDM（2022）（<font color=green>如果可以，这部分实验结果可以直接用Palette文中的结果</font>）  
 
-| Model | FID $\downarrow$ | IS $\uparrow$ | diversity | LPIPS |
+| Model | FID $\downarrow$ | IS $\uparrow$ | diversity $\uparrow$ | LPIPS $\downarrow$ |
 | - | - | - | - | - |
 | cGAN（Pix2Pix）（2017） | | | | |
 | PixColor（2017） | | | | |
@@ -33,7 +33,7 @@
 数据集：CelebAMaskHQ（人脸），ADE20K（街景）  
 对比模型：cGAN（Pix2Pix）（2017），OASIS（2021），Spade（2019），CDE（2021），LDM（2022）（<font color=magenta>这个部分有些实验现在已经跑过了可以直接用，不过ADE20K这种街景的效果可能会比较差。</font>）
 
-| Model | FID $\downarrow$ | IS $\uparrow$ | diversity | LPIPS |
+| Model | FID $\downarrow$ | IS $\uparrow$ | diversity $\uparrow$ | LPIPS $\downarrow$ |
 | - | - | - | - | - |
 | cGAN（Pix2Pix）（2017） | | | | |
 | Spade（2019） | | | | |
@@ -46,7 +46,7 @@
 ## 4. sketch $\to$ photo
 数据集：edges2shoes，edges2handbags  
 对比模型：cGAN（Pix2Pix）（2017），CycleGAN（2017），Spade（2019），DRIT++（2020），OASIS（2021），CDE（2021），LDM（2022）（<font color=magenta>这个部分有些实验现在已经跑过了可以直接用。</font>）
-| Model | FID $\downarrow$ | IS $\uparrow$ | diversity | LPIPS |
+| Model | FID $\downarrow$ | IS $\uparrow$ | diversity $\uparrow$ | LPIPS $\downarrow$ |
 | - | - | - | - | - |
 | cGAN（Pix2Pix）（2017） | | | | |
 | CycleGAN（2017） | | | | |
