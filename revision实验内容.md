@@ -45,14 +45,29 @@
 | Latent-Space BBDM（ours）| | | | |
 
 ## 4. sketch $\to$ photo
-数据集：edges2shoes，edges2handbags  
+数据集：edges2shoe/edges2handbags  
 对比模型：cGAN（Pix2Pix）（2017），CycleGAN（2017），Spade（2019），DRIT++（2020），OASIS（2021），CDE（2021），LDM（2022）（<font color=magenta>这个部分有些实验现在已经跑过了可以直接用。</font>）
+
+#### edges2shoes
 | Model | FID $\downarrow$ | IS $\uparrow$ | diversity $\uparrow$ | LPIPS $\downarrow$ |
 | - | - | - | - | - |
-| cGAN（Pix2Pix）（2017） |  | | | |
-| CycleGAN（2017） | | | | |
+| cGAN（Pix2Pix）（2017） | 36.339 | | 0 | 0.183 |
+| CycleGAN（2017） | 66.115 | | 0 | 0.276 |
 | Spade（2019） | | | | |
-| DRIT++（2021） | | | | |
+| DRIT++（2021） | 53.373 | | 23.552 | 0.498 |
+| OASIS（2021） | | | | |
+| CDE（2021） | | | | |
+| LDM（2022） | | | | |
+| Pixel-Space BBDM（ours）| | | | |
+| Latent-Space BBDM（ours）| | | | |
+
+#### edges2handbags
+| Model | FID $\downarrow$ | IS $\uparrow$ | diversity $\uparrow$ | LPIPS $\downarrow$ |
+| - | - | - | - | - |
+| cGAN（Pix2Pix）（2017） | 32.994 | | 0 | 0.273 |
+| CycleGAN（2017） | 40.175 | | 0 | 0.367 |
+| Spade（2019） | | | | |
+| DRIT++（2021） | 43.675 | | 30.169 | 0.411 |
 | OASIS（2021） | | | | |
 | CDE（2021） | | | | |
 | LDM（2022） | | | | |
